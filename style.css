@@ -1,8 +1,13 @@
 /*my stylesheet*/
 
-s1{
-    background: lightpink
+
+html{
+    height: 101%;
 }
+.s1{
+    background: lightpink;
+}
+
 body{
-background: lightyellow
+background: lightyellow;
 }
