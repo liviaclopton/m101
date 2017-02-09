@@ -5,9 +5,13 @@ html{
     height: 101%;
 }
 .s1{
-    background: lightpink;
+    background: mistyrose;
 }
 
 body{
 background: lightyellow;
+}
+
+figure{
+    background: black;
 }
