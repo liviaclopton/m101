@@ -9,9 +9,8 @@ html{
 }
 section > article > figure > #img{
     border-radius: 20px;
-    border: 5px solid black;
+    border: 5px solid deeppink;
     max-width: 300px;
-
 }
 body{
 background: lightyellow;
