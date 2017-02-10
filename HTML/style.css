@@ -1,0 +1,7 @@
+body {	
+    background-color: #8c8c8c; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+}
+Das span-Element innerhalb des p-Elements welches innerhalb von #header ist {
+    color: #d90000; /* Schriftfarbe */
+}

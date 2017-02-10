@@ -1,17 +1,34 @@
 /*my stylesheet*/
 
+@import url('https://fonts.googleapis.com/css?family=Iceland|Open+Sans');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 html{
     height: 101%;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 .s1{
-    background: mistyrose;
+    max-width: 75%;
+    margin: 30px auto;
+
+}
+
+.titel{
+    background: dimgrey;
+    color: mistyrose;
+    font-family: 'Open Sans', sans-serif;
+}
+.s1{
+    background: dimgrey;
+    color:White;
 }
 section > article > figure > #img{
-    border-radius: 20px;
-    border: 5px solid deeppink;
+    border-radius: 10px;
+    border: 5px solid mistyrose;
     max-width: 300px;
 }
 body{
-background: lightyellow;
+background-color: lightgrey;
+ font-family: 'Iceland', cursive;
 }
+
