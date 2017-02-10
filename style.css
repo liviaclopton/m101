@@ -11,6 +11,7 @@ section > article > figure > img{
     border-radius: 20px;
     border: 5px solid black;
     max-width: 300px;
+    
 }
 body{
 background: lightyellow;
