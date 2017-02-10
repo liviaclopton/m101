@@ -1,38 +1,32 @@
-<!-- -->
 
-<!DOCTYPE html> <!--Dokumententyp hallo, ich bin ein HTML5 Dokument-->
-<html lang="de"> <!--das HTML-Element oder auch Root element. (language)-->
-    <head> <!-- Dokumenteigenschaften und Attribute usw...für user nicht sichtbar-->
-         <link href="normalize.css" rel="normalize" type="text/css" />
-         <link href="style.css" rel="stylesheet" type="text/css" />
-        <title>Meine erste HTML Seite</title> <!--Seitentitel muss in head seit-->
-        <meta charset="UTF-8"> <!-- zeichencodierung meta elemente immer in head, sind beschreibungen von websites.-->
-        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- immer in html vorhanden-->
-        <!-- Definiert die max. anzeigefläche als 100% (responivness)-->
-    </head> 
-<!-- ab hier im körper der seite ist für den besucher alles sichtbar-->
-    <body class="body" >
-        <section class= "s1" >
-            <header>
-                <h1 class="titel" id="haupttitel">About me<i class="fa fa-user-circle-o" aria-hidden="true"></i></h1>
-            </header>
-            
-            <article>
-            <p> Mein Name ist Livia Clopton, ich bin 17 Jahre alt und mache meine Lehre bei der Raiffeisen.<br>
-            Ich wohne in Wil und ich probiere gerade eine Website zu erstellen, was mir einigermassen gut gelingt finde ich...<br>
-            unten sieht man ein wunderschönes Bild von mir <i class="fa fa-linux" aria-hidden="true"></i></p>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>PAGE TITLE</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="normalize.css" rel="stylesheet" media="all">
+    <link href="styles.css" rel="stylesheet" media="all">
+     <link href="global.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <section id="container" class= "padding">
+    <header id="header" class= "padding">
+        <img src="//www.google.ch/images/srpr/logo11w.png" alt="Logo" id="logo" />
+        <p>HTML und CSS<span>Grundlagen.</span></p>
+    </header>
 
+    <main id="content" class= "padding">
+        <h1>Modul 101</h1>
+        <h2>CSS Grundlagen</h2>
+    </main>
+    <p class="infobox" class= "padding">Dieser Text ist eine Infobox.</p>    
 
-                 <figure>
-                <img id="img" src="img\IMG_2780-1-300x191.jpg" alt="Livia Clopton">
-                </figure>
-               
-            </article>
-            <footer>
-                The End.
-            </footer>
-        </section>
+    <footer id="footer">
+        <address>Hans Mustermann, Hauptstr. 50, 3000 Bern.</address>
+    </footer>
+</section>
 
-
-    </body>
+</body>
 </html>

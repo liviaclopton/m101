@@ -1,34 +1,53 @@
-/*my stylesheet*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-@import url('https://fonts.googleapis.com/css?family=Iceland|Open+Sans');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-html{
-    height: 101%;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-.s1{
-    max-width: 75%;
-    margin: 30px auto;
+
+body {	
+    background-color: #8c8c8c; /* Hintergrundfarbe */
+    color: white; /* Schriftfarbe */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+
 
 }
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
 
-.titel{
-    background: dimgrey;
-    color: mistyrose;
-    font-family: 'Open Sans', sans-serif;
+#header > p > span   {
+    color: #d90000; /* Schriftfarbe */
 }
-.s1{
-    background: dimgrey;
-    color:White;
+p.infobox {
+    color: white;
+    background-color: #8c8c8c; /* Hintergrundfarbe setzen */
+    border: 3px solid #ecf7dd; /* Rahmen, dünne 3 Pixel Linie */
+    border-radius: 5px; /* Ecken abrunden */
+    text-align: center;	/* Schrift zentrieren */
 }
-section > article > figure > #img{
-    border-radius: 10px;
-    border: 5px solid mistyrose;
-    max-width: 300px;
-}
-body{
-background-color: lightgrey;
- font-family: 'Iceland', cursive;
-}
+section#container {
+    background: white;
+    color: black;
+    width: 70% ;
+    border-radius: 7px;	/* Ecken abrunden */
+    box-shadow: 10px 10px 5px #888888; /* Leichter Schatten */
+}	
 
+#header {
+    background: white; /* Hinterrundfarbe weiss */
+    color: black; /* Schriftfarbe schwarz */
+    text-align: center; /* Schrift zentriert */
+}
+#logo { 
+    background: white;
+    color: black;
+    height: auto; /* Responsive Image Höhe*/ 
+    width: 100%; /* Responsive Image Breite*/
+    max-width: 420px; /* Responsive Image maximale Breite */
+}
+ddress {
+    text-align: center; /* Text zentrieren */
+    font-size: 80%; /* etwas kleiner als der Rest */
+    font-style: normal;	/* normale Schrift, nicht kursiv */
+    letter-spacing: 2px; /* Abstand zwischen den Buchstaben */
+    line-height: 1.5; /* Zeilenabstand, ohne Einheit */
+}
